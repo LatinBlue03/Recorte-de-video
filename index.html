@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recortar Video</title>
+    <script src="https://cdn.rawgit.com/Kagami/ffmpeg.js/master/ffmpeg.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        video { max-width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>Recortar Video a 1:30</h1>
+    <input type="file" id="videoInput" accept="video/*">
+    <button id="selectFolder" disabled>Seleccionar Carpeta</button>
+    <button id="recortar" disabled>Recortar Video</button>
+    <video id="video" width="640" controls></video>
+    <script src="script.js"></script>
+</body>
+</html>
